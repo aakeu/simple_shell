@@ -17,5 +17,6 @@ char** read_the_given_command(char *command, size_t size);
 void execute_the_command(char **tokens);
 int the_command_exists(const char *command);
 char *construct_path(const char *dir, const char *command);
+char *my_getline(int fd);
 
 #endif /* SHELL_H */
