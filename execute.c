@@ -120,7 +120,7 @@ void execute_the_command(char **tokens)
 		return;
 	}
 	path_command = get_path_command_from_tokens(tokens);
-	ModesterBola_print_two("Executing command: %s\n", path_command);
+	ModesterBola_print_two("%s\n", path_command);
 
 	if (!path_command)
 	{
